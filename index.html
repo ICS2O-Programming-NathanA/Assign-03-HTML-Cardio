@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="description" content="Area with JavaScript" />
+    <meta name="keywords" content="immaculata, ics2o" />
+    <meta name="author" content="Nathan Araujo" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="apple-touch-icon" sizes="180x180" href="./fav/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="./fav/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="./fav/favicon-16x16.png" />
+    <link rel="manifest" href="./fav/site.webmanifest" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
+    <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.indigo-purple.min.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+		
+		<!-- Title -->
+    <title>How much calories you will lose by doing certain activities?</title>
+  </head>
+  <body>
+    <script defer src="https://code.getmdl.io/1.3.0/material.min.js">		</script>
+    <script src="./js/script.js"></script>
+    <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+      <header class="mdl-layout__header">
+        <div class="mdl-layout__header-row">
+          <span class="mdl-layout-title">How much calories you will lose by doing certain activities?</span>
+        </div>
+      </header>
+      <main class="mdl-layout__content">
+              <center><h2>How much calories you will lose by doing certain activities?</h2></center>
+
+				<!-- image -->
+				<center><img src="./images/running.jpg" alt="running" width="30%" height="30%"></center>
+				<br></br>
+
+				<center><h5>Enter information below</h5></center>
+				<center><!-- Simple Textfield -->
+        <form action="#">
+          <p>Enter weight</p>
+          <div class="mdl-textfield mdl-js-textfield">
+            <input
+              class="mdl-textfield__input"
+              type="text"
+              pattern="-?[0-9]*(\.[0-9]+)?"
+              id="weight"
+            />
+            <label class="mdl-textfield__label" for="weight">weight ...</label>
+            <span class="mdl-textfield__error">Input is not a number!</span>
+          </div>
+        </form>
+
+					<p>Chose an activity</p>
+					
+				<!-- Radio button -->
+      <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-1">
+        <!-- Option 1 -->
+        <input type="radio" id="option-1" class="mdl-radio__button" name="options" value="1" checked>
+        <span class="mdl-radio__label">Running at 5mph (8.04 km/h)</span>
+      </label>
+      <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-2">
+        <!-- Option 2 -->
+        <input type="radio" id="option-2" class="mdl-radio__button" name="options" value="2">
+        <span class="mdl-radio__label">Hiking</span>
+      </label>
+			<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-3">
+        <!-- Option 3 -->
+        <input type="radio" id="option-3" class="mdl-radio__button" name="options" value="3">
+        <span class="mdl-radio__label">Swimming, slow freestyle laps</span>
+				</label>
+
+			<br></br>
+			<!-- Raised button with ripple -->
+    <button
+          class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent"
+          onclick="cardio()"
+        >
+          Calculate
+    </button>
+        <br />
+        <p>
+          <div id="30mins">
+            <div id="60mins"></div>
+          </div>
+        </p>
+      </main>
+    </div>
+  </body>
+</html>
