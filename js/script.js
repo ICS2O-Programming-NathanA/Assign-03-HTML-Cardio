@@ -20,10 +20,28 @@ function cardio () {
 	const HIKING60 = 2.4025974
 	const SWIMMING30 = 1.65584416
 	const SWIMMING60 = 3.31168831
+
+	//process
+	let run30 = (weight * RUNNING30)
+	let run60 = (weight * RUNNING60)
+	let hike30 = (weight * HIKING30)
+	let hike60 = (weight * HIKING60)
+	let swim30 = (weight * SWIMMING30)
+	let swim60 = (weight * SWIMMING60)
 	
 	//process
-	let output = (weight * RUNNING30)
-	
-  // output
-  document.getElementById('60mins').innerHTML = 'You should bench press around: ' + output.toFixed(2) + 'lbs'
+	if(document.getElementById('option-1').checked) {   
+    document.getElementById("30mins").innerHTML   
+        = "You will lose around " + run30.toFixed(2) + " calories for 30 minutes of this activity and you will lose around " + run60.toFixed(2) + " calories for 1 hour of this activity";   
+            }   
+            else if(document.getElementById('option-2').checked) {   
+                document.getElementById("30mins").innerHTML   
+                    = document.getElementById("option-2").value   
+                    + " radio button is checked";     
+            }   
+            else if(document.getElementById('option-3').checked) {   
+                document.getElementById("30mins").innerHTML   
+                    = document.getElementById("option-3").value   
+                    + " radio button is checked";     
+            }   
 }
