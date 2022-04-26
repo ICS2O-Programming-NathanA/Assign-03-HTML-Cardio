@@ -31,16 +31,15 @@ function cardio () {
 	
 	//process
 	if(document.getElementById('option-1').checked) {   
-    document.getElementById("30mins").innerHTML   
-        = "You will lose around " + run30.toFixed(2) + " calories for 30 minutes of this activity and you will lose around " + run60.toFixed(2) + " calories for 1 hour of this activity";   
+    document.getElementById("display").innerHTML   
+        = "You would lose around " + run30.toFixed(2) + " calories for 30 minutes of this activity and you would lose around " + run60.toFixed(2) + " calories for 1 hour of this activity";   
             }   
             else if(document.getElementById('option-2').checked) {   
-                document.getElementById("30mins").innerHTML   
-                    = document.getElementById("option-2").value   
-                    + " radio button is checked";     
+                document.getElementById("display").innerHTML   
+                    = "You will lose around " + hike30.toFixed(2) + " calories for 30 minutes of this activity and you would lose around " + hike60.toFixed(2) + " calories for 1 hour of this activity";     
             }   
             else if(document.getElementById('option-3').checked) {   
-                document.getElementById("30mins").innerHTML   
+                document.getElementById("display").innerHTML   
                     = document.getElementById("option-3").value   
                     + " radio button is checked";     
             }   
