@@ -41,5 +41,5 @@ function cardio () {
             else if(document.getElementById('option-3').checked) {   
                 document.getElementById("display").innerHTML   
                     = " You would lose around " + swim30.toFixed(2) + " calories for 30 minutes of this activity and you would lose around " + swim60.toFixed(2) + " calories for 1 hour of this activity";     
-            }   
+            }
 }
