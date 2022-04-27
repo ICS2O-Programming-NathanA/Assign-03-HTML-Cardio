@@ -1,8 +1,15 @@
 /* Created by: Nathan Araujo
 * Created on: Mar 2022
 * This CSS file defines the style for index.html
-* ICS2O-Unit2-01-HTML-JS-HelloWorld
+* ICS2O-Unit3-HTML-Cardio
 */
+
+img {
+	width: 400px;
+	height: 250px;
+	border: 6px solid #ffffff ;
+	border-radius: 25px;
+}
 
 body {
   background: linear-gradient(-45deg, #00e1ff, #42ff71, #ade4ff, #d2ff2e);
@@ -21,20 +28,8 @@ background-position: 100% 50%;
 background-position: 0% 50%;
 }
 
-h1 {
-	background-color: rgb(61, 181, 255);
-	color: hsl(200, 87%, 56%);
-	padding: 40px;
-	text-align: center;
-}
 
 p {
 	background-color: #00ffbf;
 }
 
-img {
-	width: 400px;
-	height: 250px;
-	border: 6px solid #ffffff ;
-	border-radius: 25px;
-}
