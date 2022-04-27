@@ -1,1 +1,1 @@
-[![GitHub's Super Linter](https://github.com/com/ICS2O-Programming-NathanA/Assign-03-HTML-Cardio/workflows/GitHub's%20Super%20Linter/badge.svg)](https://github.com/com/ICS2O-Programming-NathanA/Assign-03-HTML-Cardio/actions)
+[![GitHub's Super Linter](https://github.com/ICS2O-Programming-NathanA/Assign-03-HTML-Cardio/workflows/GitHub's%20Super%20Linter/badge.svg)](https://github.com/ICS2O-Programming-NathanA/Assign-03-HTML-Cardio/actions)
