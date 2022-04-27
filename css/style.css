@@ -4,6 +4,7 @@
 * ICS2O-Unit3-HTML-Cardio
 */
 
+/* Image */
 img {
 	width: 400px;
 	height: 250px;
@@ -11,6 +12,7 @@ img {
 	border-radius: 25px;
 }
 
+/* Background */
 body {
   background: linear-gradient(-45deg, #00e1ff, #42ff71, #ade4ff, #d2ff2e);
 background-size: 400% 400%;
@@ -27,9 +29,3 @@ background-position: 100% 50%;
 100% {
 background-position: 0% 50%;
 }
-
-
-p {
-	background-color: #00ffbf;
-}
-
